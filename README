@@ -1,0 +1,11 @@
+3 distinct application:
+
+1. banzai, which is copied from quickfixj example
+   This is just a very simple trading client that sends order to "executor" (which fulfils orders right away)
+
+2. executor, fulfils orders by accepting it from banzai
+
+3. my test application, written according to tutorials at http://globalengineer.wordpress.com
+  - BakerCapital, initiator, connects to
+  - LanFongOMS, acceptor
+
